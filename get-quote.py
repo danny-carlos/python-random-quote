@@ -10,5 +10,8 @@ def getShitDone():
   rnd = random.randint(0,last)
   print(quotes[rnd])
 
+  rnd = random.randint(0,last)
+  print(quotes[rnd], end = " ")
+
 if __name__== "__main__":
     getShitDone()
